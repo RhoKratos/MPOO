@@ -7,12 +7,12 @@ final class saludo {
     init(hola: String) {
         
         self.hola = hola
-    } // init
+    } 
     func changeName(value: String) {
         
         hola = value
         
-    } // changeName
+    } 
 }
 
 let hi = saludo(hola: "Hola mundo en Windows")
