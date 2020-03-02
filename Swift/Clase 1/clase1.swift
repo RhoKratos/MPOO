@@ -38,14 +38,14 @@ import Foundation
  print("¿Que deseas hacer con el número?")
  print(" 1.-Sucesión de Fibonacci.")
  print(" 2.-Factorial.")
- let opcion: String = 1
+ let opcion: String = fibonacci
  
  switch opcion {
- case "1":
+ case "fibonacci":
     
     fibonacci(numero)
 
- case "2":
+ case "factotrial":
     
     factorial(numero)
      
