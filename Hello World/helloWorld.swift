@@ -3,23 +3,20 @@ import Foundation
 final class saludo {
 
     var hola : String 
-    var date = String
+    
     init(hola: String) {
         
         self.hola = hola
     } 
-    func changeName(value: String) {
+    func changeName(value: String, value2: String) {
         
         hola = value
-        
+     
     } 
 }
 
-let hi = saludo(hola: "Hola mundo en Windows")
+let hi = saludo(hola: "Hola mundo en Swift")
 
-print("\(hi.hola) para swift")
+print("\(hi.hola) para Windows")
 
-let fecha = saludo(date: Date)
-
-print(fecha.date)
 
