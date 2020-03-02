@@ -1,6 +1,7 @@
-#MPOO
+# MPOO
 
-Modelos de Programacion Orientada a Objetos Semestre 2019-2
+Modelos de Programación Orientada a Objetos semestre 2019-2
+
 
 Swift
   -Clase 1
