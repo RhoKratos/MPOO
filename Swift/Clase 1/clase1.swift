@@ -34,22 +34,26 @@ import Foundation
  print("Sucesiones")
  print("Digita un número.")
 
+ let texto = readLine()
+
+ let numero = Int(texto as! String)!
+ 
  print("¿Que deseas hacer con el número?")
- print(" 1.-Sucesión de Fibonacci.")
+ print(" 1.-Sucesion de Fibonacci.")
  print(" 2.-Factorial.")
- let opcion = "fibonacci"
+ let opcion = readLine()
  
  switch opcion {
  case "fibonacci":
     
-    print(fibonacci(numero: Int(4)))
+    print(fibonacci(numero: Int(numero)))
 
- case "factotrial":
+ case "factorial":
     
-    print(factorial(numero: Int(5)))
+    print(factorial(numero: Int(numero)))
      
  default:
      
-     print("No es una opcion válida")
+     print("No es opcion correcta")
      
  }
