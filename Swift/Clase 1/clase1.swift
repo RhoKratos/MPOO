@@ -41,8 +41,9 @@ import Foundation
  print("¿Que deseas hacer con el número?")
  print(" 1.-Sucesion de Fibonacci.")
  print(" 2.-Factorial.")
- let opcion = readLine()
- 
+ let texto1 = readLine()
+ let opcion = texto1!.lowercased()
+
  switch opcion {
  case "fibonacci":
     
