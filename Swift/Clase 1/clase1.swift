@@ -45,11 +45,11 @@ import Foundation
  let opcion = texto1!.lowercased()
 
  switch opcion {
- case "fibonacci":
+ case "fibonacci","1":
     
     print(fibonacci(numero: Int(numero)))
 
- case "factorial":
+ case "factorial","2":
     
     print(factorial(numero: Int(numero)))
      
