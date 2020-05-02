@@ -1,53 +1,53 @@
 import Foundation
 
- func fibonacci(_ numero: Int) -> Int {
+ func fibonacci( numero: Int) -> Int {
 
-     var a = 1
+     var a = 0
      var b = 1
-     guard numero > 1 else {print("Este es el termino \(numero) de la sucecion de fibonaci")}
-
-     (2...numero).forEach{ _ in
-
-        (a, b) = (a + b, a)
-
-        print("Este es el termino \(numero) de la sucecion de fibonaci: ")
-
-     }
+     var c = 0
+    for i in 1..<numero {
+        c = b + a
+        a = b
+        b = c       
+    }
+    return(a)
          
  }
      
- func factorial(_ numero: Int) -> Int {
+ func factorial(numero: Int) -> Int {
 
      let numero = numero + 1
-     var factorial = 1
+     var d = 1
      
      for i in 1..<numero {
 
-         factorial = factorial * i
+        d = d * i
          
      }
-
-     print("El factorial de \(numero) es: ", factorial)
+    return(d)
+     //print("El factorial de \(numero) es: ", factorial)
      
     
  }
 
+ print("Practica uno")
+ print("Sucesiones")
  print("Digita un número.")
- var numero = 3
+ var numero = readLine()
 
  print("¿Que deseas hacer con el número?")
  print(" 1.-Sucesión de Fibonacci.")
  print(" 2.-Factorial.")
- let opcion: String = fibonacci
+ let opcion = "fibonacci"
  
  switch opcion {
  case "fibonacci":
     
-    fibonacci(numero)
+    print(fibonacci(numero: Int(4)))
 
  case "factotrial":
     
-    factorial(numero)
+    print(factorial(numero: Int(5)))
      
  default:
      
