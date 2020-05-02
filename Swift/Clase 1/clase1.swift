@@ -33,7 +33,6 @@ import Foundation
  print("Practica uno")
  print("Sucesiones")
  print("Digita un número.")
- var numero = readLine()
 
  print("¿Que deseas hacer con el número?")
  print(" 1.-Sucesión de Fibonacci.")
