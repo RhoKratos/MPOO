@@ -5,6 +5,9 @@ class Circulo:
     def __init__(self, radio):
         self.radio = radio
     
+    def perimetro(self):
+        return self.radio * self.pi * 2
+    
     def area(self):
         return self.radio * self.radio * self.pi
 
@@ -16,13 +19,17 @@ print("Radio de curculo uno:")
 print(circulo_uno.radio)
 print("Radio de círculo dos:")
 print(circulo_dos.radio)
+
 print("Parámetros de círculo uno:")
 print(circulo_uno.__dict__)
 print("Parámetros de círculo dos:")
-print(circulo_dos.__dict__)
-'''
-__dict__ es una funcion que permite conocer los atributos del objeto
-'''
+print(circulo_dos.__dict__)#__dict__ es una funcion que permite conocer los atributos del objeto
+
+print("Perímetro del círculo uno:")
+print(circulo_uno.perimetro())
+print("Perímetro del círculo dos:")
+print(circulo_dos.perimetro())
+
 print("Area del círculo uno:")
 print(circulo_uno.area())
 print("Area del círculo dos:")
@@ -34,5 +41,7 @@ print("Radio de círculo tres:")
 print(circulo_tres.radio)
 print("Parámetros de círculo tres:")
 print(circulo_tres.__dict__)
+print("Perímetro del círculo tres:")
+print(circulo_tres.perimetro())
 print("Area del círculo tres:")
 print(circulo_tres.area())
