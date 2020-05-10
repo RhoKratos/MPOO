@@ -3,7 +3,7 @@ def fibonacci(num):
     b = 1
     
     for i in range(num):
-        c = b+a
+        c = b + a
         a = b
         b = c
         
@@ -17,7 +17,7 @@ def factorial(num):
 print('Práctica 1 MPOO.')
 print('Sucesiones.')
 numero = int(input('Introduce un indice de la sucesión que deseas.'))
-print('¿Que sucesion desas realizar?')
+print('¿Que sucesion desas realizar?\n')
 print('\t1.-Fibonacci.')
 print('\t2.-Factorial.')
 opcion = int(input())
