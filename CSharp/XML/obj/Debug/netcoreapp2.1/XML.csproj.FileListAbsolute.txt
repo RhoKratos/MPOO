@@ -1,0 +1,12 @@
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\obj\Debug\netcoreapp2.1\XML.csprojAssemblyReference.cache
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\obj\Debug\netcoreapp2.1\XML.csproj.CoreCompileInputs.cache
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\obj\Debug\netcoreapp2.1\XML.AssemblyInfoInputs.cache
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\obj\Debug\netcoreapp2.1\XML.AssemblyInfo.cs
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\bin\Debug\netcoreapp2.1\XML.deps.json
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\bin\Debug\netcoreapp2.1\XML.runtimeconfig.json
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\bin\Debug\netcoreapp2.1\XML.runtimeconfig.dev.json
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\bin\Debug\netcoreapp2.1\XML.dll
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\bin\Debug\netcoreapp2.1\XML.pdb
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\obj\Debug\netcoreapp2.1\XML.dll
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\obj\Debug\netcoreapp2.1\XML.pdb
+C:\Users\RhoKratos\Desktop\MPOO\CSharp\XML\obj\Debug\netcoreapp2.1\XML.genruntimeconfig.cache

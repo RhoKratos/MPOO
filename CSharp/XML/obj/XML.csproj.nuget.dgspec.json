@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\RhoKratos\\Desktop\\MPOO\\CSharp\\XML\\XML.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\RhoKratos\\Desktop\\MPOO\\CSharp\\XML\\XML.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RhoKratos\\Desktop\\MPOO\\CSharp\\XML\\XML.csproj",
+        "projectName": "XML",
+        "projectPath": "C:\\Users\\RhoKratos\\Desktop\\MPOO\\CSharp\\XML\\XML.csproj",
+        "packagesPath": "C:\\Users\\RhoKratos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RhoKratos\\Desktop\\MPOO\\CSharp\\XML\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RhoKratos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.3.20216.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

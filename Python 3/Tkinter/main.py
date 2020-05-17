@@ -31,7 +31,7 @@ etiqueta.pack(fill = tkinter.X)
 etiqueta2 = tkinter.Label(ventana, text = "Introduce la cantidad de caracteres.", bg = "gray94")
 etiqueta2.pack(fill = tkinter.X)
 
-entrada = Entry(ventana, width = 50)
+entrada = Entry(ventana, width = 50, bg='#000000', fg='#b7f731', relief='flat')
 entrada.pack()
 
 etiqueta3 = tkinter.Label(ventana, text = "¿Que tipo de caracteres deseas en la contraseña?", bg = "gray94")
